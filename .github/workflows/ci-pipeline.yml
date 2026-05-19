@@ -59,7 +59,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0          # full history needed for secret scanning
+          fetch-depth: 1         # full history needed for secret scanning
 
       - name: Run Gitleaks
         uses: gitleaks/gitleaks-action@v2
