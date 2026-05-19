@@ -4,7 +4,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 
-var x = 1
+var x = 4
 console.log(x)
 
 function App() {
